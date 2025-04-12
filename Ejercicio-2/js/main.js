@@ -21,6 +21,10 @@ const elementosegundoLi = document.querySelector(".js_segundoLi")
 elementoTitle.innerHTML += elementoLi.innerText;
 console.log (elementoLi)
 
-elementoLi.innerHTML = elementosegundoLi;
-elementoTitle.innerHTML += elementoLi.innerHTML; 
+/**
+ * 
+
+elementoLi.innerHTML = elementosegundoLi; */
+
+elementoTitle.innerHTML += "Seila"; 
 
