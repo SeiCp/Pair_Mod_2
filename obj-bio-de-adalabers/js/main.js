@@ -2,7 +2,23 @@ const adalaber1 = {
   nombre: "Susana",
   edad: 34,
   profesión: "periodista",
+  run: function () {
+    console.log("Estoy corriendo");
+  },
+  runAMarathon: function (distance) {
+    console.log(`Estoy corriendo un maratón de ${distance} kilómetros`);
+  },
+  showBio: function () {
+    console.log(
+      `Mi nombre es ${adalaber1.nombre}, tengo ${adalaber1.edad} años y soy ${adalaber1.profesión}`
+    );
+  },
 };
+
+adalaber1.run();
+adalaber1.runAMarathon(30);
+adalaber1.showBio();
+
 /* console.log(
   `Mi nombre es ${adalaber1.nombre}, tengo ${adalaber1.edad} años y soy ${adalaber1.profesión}`
 ); */
