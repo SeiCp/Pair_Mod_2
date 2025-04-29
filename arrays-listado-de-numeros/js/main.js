@@ -13,3 +13,15 @@ console.log(numeros);
 for (let i = 0; i <= 100; i++) {
   console.log(numeros[i]);
 }
+
+
+function getReversed100Numbers() {
+  const guardarNumeros = get100Numbers()
+  return numeros.reverse()
+}
+
+console.log(getReversed100Numbers())
+
+for (let i = 0; i <= 100; i++) {
+  console.log(numeros[i]);
+}
